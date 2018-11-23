@@ -1,0 +1,112 @@
+body {
+	background-color: orange;
+}
+
+.header {
+	font-family: 'Exo', sans-serif;
+	font-size: 45px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+
+	padding: 40px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.text {
+	font-family: 'Exo', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+	color: white;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}	
+
+.navbar-brand {
+	font-family: 'Exo', sans-serif;
+	font-weight: 700;
+	color: white;
+/*
+	display:flex;
+	flex-direction: row;
+	justify-content: baseline;*/
+	
+}
+
+.navbar {
+	color: orange;
+	background-color: transparent;
+}
+
+.comic {
+	display: flex;
+	justify-content: center;
+}
+
+.frames {
+	padding: 60px;
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+.frame {
+		border-radius: 25px;
+		width:160px; 
+		height:160px; 
+		background-color: white;
+}
+
+.scale:hover {
+	transform: scale(1.2);
+	transition: 1s ease;
+}
+
+.color_change:hover {
+	background: transparent;
+	transition: 2s ease;
+}
+
+.rotate:hover {
+	transform: rotate(360deg);
+	transition: 1s ease;
+}
+
+.duplicate:hover {
+	border-radius: 25px;
+	width:160px; 
+	height:160px; 
+	background: olive;
+
+	transform: translate(10px,10px);
+	transition: 1s ease;
+}
+
+.color_change_2:hover {
+	background: linear-gradient(120deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+	transition: 2s ease;
+}
+
+.subscribe_button_container {
+	padding: 40px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.subscribe_button {
+	font-family: 'Exo', sans-serif;
+
+
+
+
